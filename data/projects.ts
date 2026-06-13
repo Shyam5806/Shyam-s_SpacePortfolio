@@ -9,7 +9,7 @@ import type { Project } from '@/types'
 export const PROJECTS: Project[] = [
   {
     id: 'A-AI001',
-    name: 'Agentic AI Security Copilot(InProgress)',
+    name: 'Agentic AI Security Copilot(Nebula Stage)',
     col: '#7F77DD',
     hex: 0x7f77dd,
     sum: 'AI-powered real-time threat detection with autonomous multi-agent architecture. Analyzes network behavior patterns, identifies anomalies, and neutralizes attacks before they escalate to full breaches.',
@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'G-DC002',
-    name: 'GaonDoc(InProgress)',
+    name: 'GaonDoc(Nebula Stage)',
     col: '#1D9E75',
     hex: 0x1d9e75,
     sum: "Voice-first AI rural health triage for India. Supports 10+ regional languages. Integrates eSanjeevani infrastructure for last-mile healthcare in villages 50km+ from the nearest hospital.",
@@ -66,7 +66,7 @@ export const PROJECTS: Project[] = [
     id: 'C-SC006',
     name: 'CollegeScope',
     col: '#34acf2',
-    hex: 0xe85d96,
+    hex: 0x0000FF,
     sum: 'A production-grade college discovery and decision-making web platform inspired by Careers360 and CollegeDunia. It allows students to search, explore, compare, and save colleges — helping them make informed admission decisions through a clean, data-driven interface.',
     tech: ['TypeScript','Next.js 14','Tailwind CSS', 'React', 'Node.js','Express.js-Rest API', 'PostgreSQL','Prisma ORM'],
     imp: 'Enables rapid development of high-performance web applications with consistent user experiences.',
