@@ -694,7 +694,7 @@ export default function SpaceUniverse() {
       const hits = rcRef.current.intersectObjects(threeScene.children, true)
 
       const hit = hits.find(
-        (h) => h.object.isMesh && clickables.some((c) => c.mesh === h.object),
+        (h) => (h.object as THREE.Mesh).isMesh && clickables.some((c) => c.mesh === h.object),
       )
       if (!hit) {
         setActiveTechRef.current(null)
@@ -747,7 +747,7 @@ export default function SpaceUniverse() {
       )
       rcRef.current.setFromCamera(mvRef.current, cam)
       const hits = rcRef.current.intersectObjects(threeScene.children, true)
-      const isHit = hits.some((h) => h.object.isMesh && clickables.some((c) => c.mesh === h.object))
+      const isHit = hits.some((h) => h.object instanceof THREE.Mesh && clickables.some((c) => c.mesh === h.object))
       document.body.style.cursor = isHit ? 'pointer' : 'default'
     }
 
