@@ -8,17 +8,6 @@ import type { Project } from '@/types'
 
 export const PROJECTS: Project[] = [
   {
-    id: 'A-AI001',
-    name: 'Agentic AI Security Copilot(Nebula Stage)',
-    col: '#7F77DD',
-    hex: 0x7f77dd,
-    sum: 'AI-powered real-time threat detection with autonomous multi-agent architecture. Analyzes network behavior patterns, identifies anomalies, and neutralizes attacks before they escalate to full breaches.',
-    tech: ['Python', 'LangChain', 'FastAPI', 'React', 'Docker'],
-    imp: 'Reduces threat response time by 80% for SMEs without dedicated security teams.',
-    gh: 'https://github.com/shyam0508060409087',
-    demo: '',
-  },
-  {
     id: 'G-DC002',
     name: 'GaonDoc(Nebula Stage)',
     col: '#1D9E75',
