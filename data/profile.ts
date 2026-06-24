@@ -12,7 +12,7 @@ export const PROFILE: Profile = {
   degree: 'B.Tech CSE — Pre-Final Year',
   university: 'University of Engineering & Management, Jaipur',
   email: 'shyamsunderpandey0508@gmail.com',
-  github: 'https://github.com/shyam0508060409087',
+  github: 'https://github.com/Shyam5806',
   linkedin: 'https://linkedin.com/in/shyam-sunder-pandey-605542321',
   leetcode: 'https://leetcode.com/shyamsunderpandey',
   resume: 'https://drive.google.com/file/d/1dpiJgo4O_wVMnyPpJ33VvuKFO6kC9DC-/view?usp=sharing',   // ← Replace with your actual resume Google Drive / PDF link
